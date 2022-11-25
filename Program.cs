@@ -30,4 +30,4 @@ Console.WriteLine("Brayan rectangolo cambiato: ");
 brayantangollo.PrintRectangle();
 
 Console.WriteLine("Emanuelle rectangolo: ");
-emanuelleangolo.PrintRectangle();   
+emanuelleangolo.PrintRectangle(); 

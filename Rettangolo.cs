@@ -32,5 +32,27 @@ namespace csharp_geometria
             Console.WriteLine("Perimetro: \t" + this.calcolaPerimetro()+"cm");
             Console.WriteLine("Area: \t\t" + this.calcolaArea()+ "cm2");
         }
+
+        public void DrowRectangle()
+        {
+            for (int i = 1; i <= recbase; i++)
+            {
+                for (int j = 1; j <= recheight; j++)
+                {
+                    if (i == 1 || i == recbase || j == 1 || j == recheight)
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+                Console.Write("\n ");
+            }
+        }
     }
+
 }
+    
+
